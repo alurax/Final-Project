@@ -36,6 +36,14 @@ img {
     width: 100%; 
 }
 
+footer {
+    background-color: #cccccc; /* Light gray footer background */
+    color: #000000; /* Black text for light mode */
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
 @media (min-width: 772px) {
     .grid {
         grid-template-columns: repeat(2, 1fr); 
@@ -72,5 +80,12 @@ img {
         background-color: #444444; /* Darker gray for figure background */
         color: #FFFF00; /* Bright yellow text for better visibility */
         border: 1px solid #000000; /* Black border */
+    }
+
+    footer {
+        background-color: #444444; /* Darker gray footer background */
+        color: #FFFFFF; /* White text for dark mode */
+        padding: 10px;
+        margin-top: 20px;
     }
 }
