@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    background-color: #dedede;
-    color: #333;
+    background-color: #dedede; /* Light gray background */
+    color: #000000; /* Black text for better contrast */
     padding: 5px;
     margin: 15px;
     font-size: 25px;
@@ -64,23 +64,13 @@ img {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #333; 
+        background-color: #333333; /* Dark gray background */
+        color: #FFFFFF; /* White text for high contrast */
     }
 
     figure {
-        background-color: #333; 
-        color: #ffea00; 
-        border: 1px solid black; 
-    }
-    @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #333; 
-        color: #ffffff; 
-    }
-
-    figure {
-        background-color: #444; 
-        color: #ffea00;
-        border: 1px solid black; 
+        background-color: #444444; /* Slightly lighter dark background */
+        color: #FFD700; /* Gold text for good visibility */
+        border: 1px solid #000000; /* Black border */
     }
 }
