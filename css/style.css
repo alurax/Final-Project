@@ -37,13 +37,21 @@ img {
 }
 
 footer {
-    background-color: #555555; /* Medium gray footer background */
+    background-color: #555555; /* Dark gray footer background */
     color: #FFFFFF; /* White text for high contrast */
     text-align: center;
     padding: 10px;
     margin-top: 20px;
 }
 
+footer a {
+    color: #FFFFFF; /* White text for high contrast */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    color: #FFFF00; /* Bright yellow on hover for visibility */
+}
 
 @media (min-width: 772px) {
     .grid {
@@ -84,8 +92,8 @@ footer {
     }
 
     footer {
-        background-color: #444444; /* Darker gray footer background */
-        color: #FFFFFF; /* White text for dark mode */
+        background-color: #555555; /* Dark gray footer background */
+        color: #FFFFFF; /* White text for high contrast */
         padding: 10px;
         margin-top: 20px;
     }
