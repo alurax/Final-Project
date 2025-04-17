@@ -45,12 +45,12 @@ footer {
 }
 
 footer a {
-    color: #FFFFFF; /* White text for high contrast */
+    color: #FFFFFF !important; /* White text for high contrast */
     text-decoration: none; /* Remove underline */
 }
 
 footer a:hover {
-    color: #FFFF00; /* Bright yellow on hover for visibility */
+    color: #FFFF00 !important; /* Bright yellow on hover for visibility */
 }
 
 @media (min-width: 772px) {
