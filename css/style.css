@@ -37,12 +37,13 @@ img {
 }
 
 footer {
-    background-color: #cccccc; /* Light gray footer background */
-    color: #000000; /* Black text for light mode */
+    background-color: #888888; /* Medium gray footer background */
+    color: #FFFFFF; /* White text for high contrast */
     text-align: center;
     padding: 10px;
     margin-top: 20px;
 }
+
 
 @media (min-width: 772px) {
     .grid {
