@@ -4,6 +4,7 @@ html {
 
 body {
     background-color: #dedede;
+    color: #333;
     padding: 5px;
     margin: 15px;
     font-size: 25px;
@@ -69,6 +70,17 @@ img {
     figure {
         background-color: #333; 
         color: #ffea00; 
+        border: 1px solid black; 
+    }
+    @media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333; 
+        color: #ffffff; 
+    }
+
+    figure {
+        background-color: #444; 
+        color: #ffea00;
         border: 1px solid black; 
     }
 }
