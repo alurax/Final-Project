@@ -4,7 +4,7 @@ html {
 
 body {
     background-color: #dedede; /* Light gray background */
-    color: #000000; /* Black text for better contrast */
+    color: #222222; /* Dark gray text for better contrast */
     padding: 5px;
     margin: 15px;
     font-size: 25px;
@@ -69,8 +69,8 @@ img {
     }
 
     figure {
-        background-color: #444444; /* Slightly lighter dark background */
-        color: #FFD700; /* Gold text for good visibility */
+        background-color: #444444; /* Darker gray for figure background */
+        color: #FFFF00; /* Bright yellow text for better visibility */
         border: 1px solid #000000; /* Black border */
     }
 }
